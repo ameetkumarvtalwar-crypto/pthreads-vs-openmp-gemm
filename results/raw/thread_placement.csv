@@ -1,0 +1,4 @@
+Configuration,Threads,Run1,Run2,Average
+Physical cores,6,25.997621,28.012385,27.005003
+SMT on 3 cores,6,11.316248,24.659443,17.987846
+All logical CPUs,12,11.686841,15.792315,13.739578

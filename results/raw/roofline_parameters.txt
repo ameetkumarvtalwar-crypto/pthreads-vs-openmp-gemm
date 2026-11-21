@@ -1,0 +1,18 @@
+Processor: Intel Core i5-12450H
+
+Physical cores: 8
+Performance cores: 4
+Efficient cores: 4
+Logical threads: 12
+
+P-core maximum frequency: 4.40 GHz
+E-core maximum frequency: 3.30 GHz
+
+Instruction set: AVX2
+Vector width: 256 bits
+Single precision values per vector: 8
+FLOPs per FMA: 2
+
+Estimated P-core theoretical peak: 281.6 GFLOP/s
+
+Measured STREAM Triad bandwidth: 18.628 GB/s

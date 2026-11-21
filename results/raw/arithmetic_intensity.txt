@@ -1,0 +1,27 @@
+ROOFLINE MODEL CALCULATIONS
+
+Processor: Intel Core i5-12450H
+
+Estimated P-core peak: 281.6 GFLOP/s
+Measured STREAM Triad bandwidth: 18.628 GB/s
+
+Ridge Point:
+281.6 / 18.628 = 15.12 FLOP/byte
+
+Arithmetic Intensity:
+AI = 2N^3 / 12N^2
+AI = N / 6
+
+Matrix 512:
+AI = 512 / 6 = 85.33 FLOP/byte
+
+Matrix 1024:
+AI = 1024 / 6 = 170.67 FLOP/byte
+
+Matrix 2048:
+AI = 2048 / 6 = 341.33 FLOP/byte
+
+Conclusion:
+All three matrix sizes have ideal arithmetic intensity
+above the estimated ridge point. Therefore, matrix
+multiplication is theoretically compute-bound.

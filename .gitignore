@@ -1,0 +1,25 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Compiled executables
+/gemm_naive
+/pthreads
+/pthreads_2d
+/openmp
+/openmp_collapse
+/false_sharing
+/stream
+/sequential
+
+# Object and library files
+*.o
+*.so
+
+# Editor files
+.vscode/
+*.swp

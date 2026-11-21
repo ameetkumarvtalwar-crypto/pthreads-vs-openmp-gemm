@@ -1,0 +1,4 @@
+implementation,matrix_size,threads,average_seconds,std_deviation
+Team1-Sequential,512,1,0.096499,0.001694
+Team1-Sequential,1024,1,2.553846,0.022115
+Team1-Sequential,2048,1,78.021575,3.496600
