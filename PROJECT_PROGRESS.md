@@ -17,12 +17,9 @@
 - LOC comparison
 - Local Git repository initialized
 - Initial commit created
-
-## Pending
-1. Prepare and save the final project report.
-2. Fix GitHub authentication (403 error).
-3. Push the project to GitHub.
-4. Final project verification.
+- Prepare and save the final project report.
+- Push the project to GitHub.
+- Final project verification.
 
 ## Project directory
 ~/multicore-project
